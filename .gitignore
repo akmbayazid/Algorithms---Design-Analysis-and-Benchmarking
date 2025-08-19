@@ -1,0 +1,43 @@
+########################
+## Globaly ignored files
+*~
+*.save
+*.bak
+*.backup
+*.o
+*.lib
+*.a
+*.obj
+*.so
+*.layout
+*.user
+*.suo
+*.ncb
+*.swp
+*.moc
+*.user*
+*.cbp
+*.autosave
+
+########
+## CMake
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/
+build/
+BUILD/
+
+########
+## QMake
+*.pro
+*.pri
+moc_*
+
+#######
+## KDev
+.kdev4/
+*.kdev4
+
+##########################################
+# Ignored Ct Creator spesifics directories
+qtc-gdbmacros
